@@ -6,86 +6,103 @@
     <link rel="stylesheet" href="styles.css"> 
 </head>
 <body>
-    <table cellspacing="15">
-        <tr>
-            <td>
-                <h1>"Имя"</h1>
-                <p><em>краткое описание <strong>о себе</strong></em></p>
-                <p>коротко о моих увлечениях</p>
-            </td>
-            <td>
-                <img src="porFoto.jpg" class="porfoto" alt="<3">
-            </td>
-        </tr>
-    </table> 
-
-    <hr>
-
-    <h2>Мои социальные сети</h2>
-    <ul type="square">
-        <li><a target="_blank" href="https://vk.com/mityaana"> вк </a></li>
-        <li> телега </li>
-    </ul>
-
-    <hr>
-
-    <h2>Мои хобби</h2>
-    <ol type="I">
-        <li> пример 1</li>
-        <li> пример 2</li>
-        <li> пример 3</li>
-    </ol>
-
-    <hr>
-
-    <h2>Образование</h2> 
-    <table>
-        <tr>
-            <th>место</th>
-            <th>время</th>
-            <th>специальность</th>
-        </tr>
-        <tr>
-            <td>место 1</td>
-            <td>время 1</td>
-            <td>спец 1</td>
-        </tr>
-        <tr>
-            <td>место 2</td>
-            <td>время 2</td>
-            <td>спец 2</td>
-        </tr>
-    </table>
-
-    <hr>
-
-    <h2>мои работы </h2>
-    <a href="myWorks.html"> список </a>
-
-    <hr>
-
-    <h2>Связь со мной</h2>
-
-    <form >
-        <label for="name">Ваше имя:</label>
-        <input type="text" id="name" placeholder="Поле ввода">
-
-        <br>
-
-        <label for="email">Ваш email:</label>
-        <input type="text" id="email" placeholder="Поле ввода">
-
-        <br>
-
-        <label for="text">Ваше сообщение:</label>
-        <br>
-        <textarea id="text" cols="20" rows="5"></textarea>
-        
-        <br>
-
-        <input type="submit" value="Связаться">
-
-    </form>
     
+    <div class="container"> 
+
+        <div class="colorhead">
+            <div class="ANITABERGER"> <p> ANITABERGER </p> </div>
+            <div class="headdiv">
+                <div> home </div> <div> about </div> <div> works </div>
+            </div>
+        </div>
+
+        <div class="info">
+            <div class="info-text">
+                <h1>"Имя"</h1>
+                <p>краткое описание <strong>о себе</strong></p>
+                <p>коротко о моих увлечениях</p>
+
+                <h4>Мои социальные сети</h4>
+                
+                <a target="_blank" href="https://vk.com/mityaana"> вк </a> 
+                |
+                <a> телега</a> 
+            </div>
+
+            <img src="porFoto.jpg" class="porfoto" alt="<3">
+        </div>  
+
+        <div class="card bg-yellow">
+            <h2>Мои хобби</h2>
+            <ol class="list">
+                <li> пример 1</li>
+                <li> пример 2</li>
+                <li> пример 3</li>
+            </ol>
+        </div>
+
+        <div class="card bg-green">
+            <h2>Опыт работы</h2> 
+            <table class="table">
+                <tr>
+                    <td>место 1</td>
+                    <td>время 1</td>
+                    <td>спец 1</td>
+                </tr>
+                <tr>
+                    <td>место 2</td>
+                    <td>время 2</td>
+                    <td>спец 2</td>
+                </tr>
+                <tr>
+                    <td>место 3</td>
+                    <td>время 3</td>
+                    <td>спец 3</td>
+                </tr>
+                <tr>
+                    <td>место 4</td>
+                    <td>время 4</td>
+                    <td>спец 4</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="card bg-red">
+            <h2>мои работы </h2>
+            <ul class="link-list">
+                <li>пример 1</li>
+                <li>пример 2</li>
+                <li>пример 3</li>
+            </ul>        
+        </div>
+
+        <div class="contact">
+            <h2>Связь со мной</h2>
+
+            <form >
+                <div class="row">
+                    <div class="form-group">
+                        <label for="name">Ваше имя:</label>
+                        <input type="text" id="name" placeholder="Поле ввода">
+                    </div>   
+
+                    <div class="form-group">
+                        <label for="email">Ваш email:</label>
+                        <input type="text" id="email" placeholder="Поле ввода">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="text">Ваше сообщение:</label>
+                    <br>
+                    <textarea id="text" cols="20" rows="5"></textarea>
+                </div>
+
+                <input class="btn" type="submit" value="Связаться">
+
+            </form>
+        </div>
+   
+    </div>
 </body>
 </html>

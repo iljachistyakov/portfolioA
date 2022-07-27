@@ -1,17 +1,209 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
-    background-color:#ffffff;
+    background-color:#f1f1f1;
     color: #0f141e;
-
     font-size: 16px;
     font-weight: normal;
     font-family: 'Roboto', sans-serif;
-
+    margin: 0px;
 }
 
-.porfoto{
+a {
+    color:#0f141e ;
+    text-decoration: none;
+}
+
+.colorhead {
+    background-color: #FB3F5C;
+    display: flex;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.headdiv {
+    color:#f1f1f1;
+    margin: 16px 100px 16px 330px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+/* .headdiv p {
+    margin: 0px;
+    /* padding: 0px 30px;
+}  */
+
+.ANITABERGER {
+    color:#f1f1f1;
+    display: flex;
+    margin-left: 80px;
+    /* width: 162px;
+    height: 50px; */
+}
+
+a:hover {
+    text-decoration: underline;
+    color:chocolate;
+}
+
+/* a:visited {
+    color: grey; 
+} */
+
+.porfoto {
     width: 250px;
     border-radius: 20px;
     box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
 }
+
+.info p {
+    color:darkviolet;
+    margin: 1; 
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.info-text {
+    margin-left: 40px;
+}
+
+.info-text h4 {
+    margin-bottom: 10px;
+}
+
+/* Box MOdel */
+
+.container{
+    max-width: 850px;
+    margin: auto;
+    /* padding-top: 30px; */
+}
+
+/* .social{
+    background-color: gold;
+    padding: 10px;
+    margin: 4px;
+    border: 6px rgb(148, 74, 218);
+    border-style: solid;
+    border-radius: 10px;
+} */
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.bg-yellow {
+    background-color:khaki ;
+}
+
+.bg-green {
+    background-color:lightgreen ;
+}
+
+.bg-red {
+    background-color:crimson ;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+    border-bottom: 1px solid gray;
+    color: grey;
+    margin-bottom: 5px;
+}
+
+/* Пример действия только на первые вложенные элементы
+.box-model > div {
+    max-width: 10px;
+} */
+
+/* Обратиться ко всем элементым 
+ * {
+    padding: 0;
+ } */
+
+ .table {
+    width: 100%;
+ }
+
+ .table td {
+    padding-bottom: 10px;
+ } 
+
+ .table td:nth-child(2), .table td:nth-child(3) {
+    color: gray;
+ }
+
+ .link-list {
+    list-style: none;
+    padding: 0;
+ }
+
+ .link-list li {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+ }
+
+ .contact h2 {
+    text-align: center;
+ }
+
+ .form-group label {
+    display: block;
+    font-size: 14px;
+    color: #86898f;
+ }
+
+ .form-group input, .form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #0f141e;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+ }
+
+ .row {
+    display: flex;
+    margin-bottom: 20px;
+ }
+
+ .row > .form-group {
+    width: 50%;
+ }
+
+ .row > .form-group:first-child {
+    margin-right: 20px;
+ }
+
+ .btn {
+    background: #0f141e;
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+ }
+
+ .btn:hover {
+    opacity: 0.9;
+ }
